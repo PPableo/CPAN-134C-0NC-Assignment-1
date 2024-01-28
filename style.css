@@ -36,6 +36,7 @@ header {
     }
   }
 
+  
   .name {
     font-size: 5px;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -51,7 +52,35 @@ header {
   }
 }
 
-.bg {
+.heroContainer {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage {
+  height: 100%;
+  width: 100%;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  column-gap: 125.88px;
+  grid-template-rows: 395.58px;
+}
+
+/* .bg {
   background-image: url("https://picsum.photos/1000/1000");
   height: 50vh;
   position: relative;
@@ -74,7 +103,7 @@ header {
       padding: 20px;
     }
   }
-}
+} */
 
 main {
   .aboutMe {
