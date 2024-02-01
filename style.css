@@ -363,7 +363,7 @@ main {
             flex-basis: 26%;
 
             &::marker {
-              color: orange;
+              color: var(--accent-color);
             }
           }
         }
