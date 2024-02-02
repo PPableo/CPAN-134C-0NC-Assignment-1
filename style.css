@@ -447,7 +447,6 @@ main {
   #attributes {
     display: flex;
     height: 100vh;
-    padding-top: 30%;
     background-color: var(--background-grey);
     align-items: center;
     color: var(--background-white);
